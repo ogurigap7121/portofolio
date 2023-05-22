@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>初めてのウェブサイト</title>
+    <link rel="stylesheet" href="./index.css">
+    <script type="text/javascript" src="./index.js"></script>
+</head>
+<body>
+    <!-- コメントが書けます。 -->
+    <div class="header">
+        <h1>仲条高幸</h1>
+    </div>
+    <div class="main1">
+        <h2>じゃんけんしようぜ！</h2>
+        <div>
+            <button type="button" onclick='janken("ぐー")'>ぐー</button>
+            <button type="button" onclick='janken("ちょき")'>ちょき</button>
+            <button type="button" onclick='janken("ぱー")'>ぱー</button>
+            <!-- ここに結果を表示させたい -->
+            <div id="janken">
+                <p id="jankenResult"></p>
+            </div>
+        </div>
+        <h3>ストアカで講師をしています。</h3>
+        <p>
+            HTML/CSS/JavaScript講座の他にも、<br />
+            <i>Google Apps Script</i>というプログラミング言語の講座や<br />
+            <b>LINEチャットボット</b>の講座を出していたり<br />
+            流行りの<u>メタバース</u>に関する講座も出しています！
+        </p>
+    </div>
+    <div class="main2">
+        <ul>
+            <li id="html_css_js"><a href="https://bit.ly/3ZS3Pdm">HTML/CSS/JS講座</a></li>
+            <li><a href="https://bit.ly/gas10poff">Google Apps Script講座</a></li>
+            <li><a href="https://bit.ly/lineclass">LINEチャットボット講座</a></li>
+            <li><a href="https://bit.ly/metaverse_unity">メタバース講座</a></li>
+        </ul>
+    </div>
+    <div class="footer">
+        <img src="https://pbs.twimg.com/profile_images/1445610398447640591/jj1iRxy1_400x400.jpg" alt="サイト作成者の画像" height="200px">
+        </a>
+        <p>先生ページは<a href="https://www.street-academy.com/steachers/170106" target="_blank">こちら</a></p>
+    </div>
+</body>
+</html>
